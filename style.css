@@ -5,8 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    min-height: 30px;
-    max-height: 500px;
+    height: auto;
     background-color: #001064;
 }
 
@@ -85,4 +84,42 @@
 
 .nav-link{
     color: white !important;
+}
+
+.signinButton {
+    margin: 10px 50px 10px 20px;
+}
+
+.signinButton > a > button{
+    color: white;
+    border: none;
+    background-color: #5f5fc4;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 95%;
+}
+
+.fa-shopping-cart{
+    margin: 10px;
+    width: 100px;
+}
+
+.fa-shopping-cart, .fa-user-o {
+    color: white;
+}
+
+.casioWatches > h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.card {
+    width: 250px;
+    height: auto;
+    margin: 5px auto;
+}
+
+.btn-primary{
+    width: 100%;
+    background-color: #5f5fc4;
 }
