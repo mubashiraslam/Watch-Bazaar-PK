@@ -5,7 +5,8 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: auto;
+    min-height: 35px;
+    max-height: auto;
     background-color: #001064;
 }
 
@@ -17,6 +18,7 @@
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 9px;
+    height: 25px;
 }
 
 #empty{
@@ -31,6 +33,7 @@
 
 .socialIcon{
     margin: 5px;
+    height: 25px;
 }
 
 .socialIcon > a{
@@ -45,6 +48,12 @@
 .pagesButton {
     display: flex;
     margin: 5px;
+    height: 25px;
+}
+
+.homeBtn{
+    border-left: 1px solid rgb(243, 200, 200) !important;
+    border-color: rgb(243, 200, 200) !important;
 }
 
 .pagesButton > a > button{
@@ -54,9 +63,11 @@
     text-transform: uppercase;
     font-family: sans-serif;
     font-size: 75%;
+    border-right: 1px solid rgb(243, 200, 200);
 }
 
 #signUp{
+    height: 25px;
     margin-left: 20px;
 }
 
@@ -108,9 +119,10 @@
     color: white;
 }
 
-.casioWatches > h1 {
+.productHeading > h1 {
     margin: 20px auto;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .card {
@@ -118,8 +130,52 @@
     height: auto;
     margin: 5px auto;
 }
-
+  
 .btn-primary{
     width: 100%;
     background-color: #5f5fc4;
+}
+
+.btn-primary:hover{
+    background-color: #001064;
+}
+
+.footer1{
+    background-color: #25272E;
+    color: #BBBBBB;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer1 h3{
+    color: white;
+}
+
+.aboutUs, .quickLinks {
+    width: 600px;
+    margin: 30px 5px;
+}
+
+.footer2{
+    background-color: #001064;
+    color: white;
+    width: 100%;
+    padding: 10px 0px 2px 40px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.footerLinks{
+    list-style: none;
+}
+
+.footerLinks li{
+    padding: 3px;
 }
