@@ -29,6 +29,10 @@
     #empty{
         display: none;
     }
+
+    .signinButton, .cartIcon{
+        display: none;
+    }
 }
 
 .socialIcon{
@@ -178,4 +182,33 @@
 
 .footerLinks li{
     padding: 3px;
+}
+
+.view-more-btn{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.view-more-btn i{
+    margin-left: 5px;
+}
+
+.view-more{
+    width: 160px;
+    background-color: #001064;
+    color: white;
+    align-items: center;
+    margin: 10px auto;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 120%;
+}
+
+.view-more:hover{
+    color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: #001064;
+    border-color: #001064;
 }
