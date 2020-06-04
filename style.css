@@ -214,6 +214,12 @@
     border-color: #001064;
 }
 
+#cutPrice{
+    font-size: 90%;
+    text-decoration: line-through;
+    margin-right: 3px;
+}
+
 /* About Us Page CSS Start */
 
 .aboutUs-page h1{
@@ -456,11 +462,6 @@
 
 /* Product Page Page CSS Start */
 
-#productImage{
-    width: 400px;
-    margin: 10px;
-}
-
 #priceCut{
     text-decoration: line-through;
     margin-right: 3px;
@@ -543,6 +544,26 @@
 
 .relatedProducts h3{
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
 /* Product Page Page CSS End */
+
+/* Category Page Page CSS Start */
+
+.categoryPage h1{
+    font-size: 70px;
+    text-align: center;
+    background-color: #f7f8fa;
+    padding: 10px;
+    color: #001064;
+}
+
+.categoryPageMore h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 30px auto;
+    color: #001064;
+}
+
+/* Category Page Page CSS End */
