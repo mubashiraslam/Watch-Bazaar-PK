@@ -453,3 +453,96 @@
 }
 
 /* Sign Up Page CSS End */
+
+/* Product Page Page CSS Start */
+
+#productImage{
+    width: 400px;
+    margin: 10px;
+}
+
+#priceCut{
+    text-decoration: line-through;
+    margin-right: 3px;
+    color: #808080;
+}
+
+.productDetails{
+    margin-top: 30px;
+}
+
+.productDetails h4{
+    margin-bottom: 10px;
+}
+
+#red{
+    color: red;
+}
+
+.productDetails ul li{
+    margin: 8px 0px;
+    color: #808080;
+}
+
+.productDetails button{
+    background-color: #5f5fc4;
+    color: white;
+    padding: 10px;
+    width: 180px;
+    height: 50px !important;
+    border: none;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-top: 10px;
+}
+
+.productDetails button:hover{
+    background-color: #001064;
+}
+
+.styleBoxe{
+    width: auto;
+    min-height: 100px;
+    background-color: #d9dcdf;
+    padding: 15px;
+    margin: 20px 10px;
+    
+}
+
+@media only screen and (max-width: 576px) {
+    .styleBoxe{
+        width: 100% !important;
+    }
+}
+
+.fa-exchange, .fa-truck, .fa-gift{
+    margin-right: 10px;
+}
+
+.description{
+    margin: 20px auto;
+}
+
+.description h3{
+    text-transform: uppercase;
+}
+
+.description p{
+    font-size: 110%;
+    line-height: 1.5em;
+}
+
+.description ul li{
+    font-size: 110%;
+    line-height: 1.8em;
+}
+
+.relatedProducts{
+    margin: 30px auto;
+}
+
+.relatedProducts h3{
+    text-transform: uppercase;
+}
+
+/* Product Page Page CSS End */
